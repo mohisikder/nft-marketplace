@@ -25,6 +25,11 @@
     color: #371C87;
     border-radius: 25px;
     padding: 8px 20px;
+    transition: all 0.3s ease-in-out;
+}
+.filter__btn .btn:hover{
+    background-color: #371C87;
+    color: #fff;
 }
 
 .card {
