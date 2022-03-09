@@ -1,0 +1,54 @@
+.signup__section{
+    padding: 80px 0;
+    position: relative;
+}
+.signup__images{
+    position: relative;
+}
+
+.signup__images img{
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+.signup__images__middle img {
+    height: 240px;
+    width: 210px;
+    border-radius: 15px;
+    position: absolute;
+    top: 210px;
+    left: 440px;
+}
+.signup__images__last img {
+    height: 240px;
+    width: 210px;
+    border-radius: 15px;
+    margin-top: 40px;
+    margin-left: 90px;
+}
+.signup__profile {
+    position: absolute;
+    left: 280px;
+    bottom: -20px;
+}
+.signup__profile__middle {
+    position: absolute;
+    left: 190px;
+    top: 210px;
+}
+.signup__profile__last{
+    position: absolute;
+    bottom: 55px;
+    left: 260px;
+}
+
+.signup__info h3{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+.signup__info p{
+    margin-bottom: 20px;
+}

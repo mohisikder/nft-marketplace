@@ -1,0 +1,93 @@
+.discover__section{
+    padding: 80px 0;
+    background-color: #F5F5F5;
+}
+.section__title h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2.25rem;
+}
+.filter__menu .btn{
+    border-radius: 25px;
+    padding: 8px 20px;
+    transition: all 0.3s ease-in-out;
+}
+.filter__menu .btn:hover{
+    background: #3D00B7;
+    color: #fff;
+}
+.filter__menu .btn:active{
+    background: #3D00B7;
+    color: #fff;
+}
+
+.filter__btn .btn{
+    color: #371C87;
+    border-radius: 25px;
+    padding: 8px 20px;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    /* border: 1px solid rgba(0,0,0,.125); */
+    border-radius: 1rem;
+}
+.card-body {
+    flex: 1 1 auto;
+    padding: 0.5rem 1rem;
+}
+img.card__img{
+    border-radius: 2rem;
+    padding: 1rem;
+    position: relative;
+}
+
+.card__profile{
+    position: absolute;
+    top: 160px;
+    left: 45px;
+}
+.card__profile img{
+    margin-left: -15px;
+}
+.btn.card__btn{
+    font-size: 0.85rem;
+    border-radius: 25px;
+    color: #5539A8;
+}
+.card__info p{
+    font-size: 0.85rem;
+    color: #00AC4F;
+}
+.card__info span{
+    font-size: 0.75rem;
+    color: #838383;
+}
+span.card__text{
+    font-size: 1rem;
+    color: #4F33A3;
+}
+
+.btn.more__btn{
+    border: 1px solid #4F33A3;
+    border-radius: 25px;
+    color: #371C87;
+    padding: 10px 20px;
+    background: transparent;
+    transition: all 0.3s ease-in-out;
+    margin-top: 60px;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn.more__btn:hover{
+    background: #371C87;
+    color: #fff;
+}

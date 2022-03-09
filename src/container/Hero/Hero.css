@@ -1,0 +1,149 @@
+.hero__section{
+    padding: 80px 0;
+}
+.hero__info .hero-title{
+    text-transform: uppercase;
+    font-size: 2.25em;
+    font-weight: bold;
+    line-height: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero__info p{
+    color: #565656;
+    margin-bottom: 40px;
+    width: 370px;
+}
+
+.btn.hero__btn{
+    background-color: #3D00B7;
+    border-radius: 25px;
+    padding: 5px 25px;
+    margin-bottom: 30px;
+    opacity: 0.8;
+    transition: all 0.3s ease-in-out;
+}
+.btn.hero__btn:hover{
+    background-color: #3D00B7;
+    opacity: 1;
+}
+.sub-counting h1{
+    line-height: 1.5rem;
+}
+
+.front-img{
+    position: relative;
+}
+.front-img img{
+    width: 400px;
+    height: 440px;
+    border-radius: 25px;
+}
+
+.img-content{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    color: white;
+}
+
+.img-profile img{
+    height: 50px;
+    width: 50px;
+    background: #bebebe;
+    margin-right: 10px;
+}
+
+.img-footer{
+    width: 350px;
+    height: 70px;
+    background: linear-gradient(-60deg, rgba(255, 255, 255, 0.548) 20%, rgba(255, 255, 255, 0.068) 100%);
+    background-blend-mode:screen ;
+    position: absolute;
+    left: 25px;
+    bottom: 25px;
+    border-radius: 10px;
+    color: white;
+}
+
+.front-img::before{
+    content: '';
+    background-image: url(../../assets/hero/hero2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* background: #000; */
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    border-radius: 25px;
+    z-index: -1;
+}
+.front-img::after{
+    content: '';
+    background-image: url(../../assets/hero/hero3.jpg);
+    /* background: rgb(148, 147, 147); */
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 360px;
+    width: 400px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    border-radius: 25px;
+    z-index: -999;
+}
+
+@media only screen and (min-width: 480px) {
+   
+  }
+@media only screen and (max-width: 860px) {
+    .hero__section{
+        padding: 40px 0;
+    }
+    .hero__info .hero-title{
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+    .hero__info p{
+        width: 80%;
+    }
+    .hero__image{
+        margin-top: 25px;
+    }
+    .hero__image img{
+        height: 100%;
+        width: 90%;
+    }
+    .img-profile img{
+        height: 50px;
+        width: 50px;
+        background: #bebebe;
+        margin-right: 10px;
+    }
+    .img-footer{
+        height: 30%;
+        width: 70%;
+    }
+    .img-footer .current-bid{
+        font-size: 0.7rem;
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+    .current-bid h5{
+        font-size: 0.85rem;
+    }
+    .front-img::before{
+        height: 80%;
+        width: 90%;
+        top: 15px;
+        left: 15px;
+    }
+    .front-img::after{
+        height: 60%;
+        width: 90%;
+        top: 25px;
+        left: 25px;
+    }
+  }
